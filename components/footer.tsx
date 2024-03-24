@@ -12,7 +12,7 @@ export function Footer() {
       </div>
       <Separator className="my-4" />
       <div className="flex h-5 items-center space-x-4 text-sm">
-        <div><a href="https://suno.ai/"></a>Suno</div>
+        <div><a href="https://suno.ai/">Suno</a></div>
         <Separator orientation="vertical" />
         <div><a href="https://github.com/tsui66/suno-ai-music">Github</a></div>
       </div>
