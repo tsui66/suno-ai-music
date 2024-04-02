@@ -29,7 +29,7 @@ export function DownloadForm() {
   })
 
   async function onSubmit(data: z.infer<typeof FormSchema>) {
-    // @ts-nocheck
+    // @ts-ignore
     const sunoId = data?.shareLink?.match(/\/song\/(.*?)\//)[1];
     const fileUrl = `https://cdn1.suno.ai/${sunoId}.mp3`
     return fetch(fileUrl).then(res => res.blob().then(blob => {
