@@ -1,7 +1,7 @@
-## Suno AI Song Downloder
+## Suno AI Song Tools
 
-Input the share link from Suno and download the MP3 file.
+Suno Muisc Downloader & Music MV Generator.
 
 ### Roadmap
-- [x] Audio download
+- [x] Audio downloader
 - [ ] Music To Video (aka Music To MV)
